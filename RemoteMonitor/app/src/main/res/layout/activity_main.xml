@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/handle_lyt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <Button
+            android:id="@+id/jump_real_play_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="63dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/jump_real_play"
+            android:textColor="@color/white"
+            android:textSize="@dimen/login_text_size"
+            android:onClick="onClick" />
+    </RelativeLayout>
+</RelativeLayout>
