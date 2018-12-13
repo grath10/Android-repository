@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <include layout="@layout/title" />
+    <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="@string/mainFrame_items"/>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+                android:id="@+id/history"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/app_history"
+                android:paddingLeft="10sp"
+                android:layout_weight="1"/>
+        <Button
+                android:id="@+id/broadcast"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/app_broadcast"
+                android:paddingRight="10sp"
+                android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+                android:id="@+id/query_version"
+                android:layout_width="0dp"
+                android:text="@string/app_query_version"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10sp"
+                android:layout_weight="1"/>
+        <Button
+                android:id="@+id/feedback"
+                android:layout_width="0dp"
+                android:text="@string/app_feedback"
+                android:layout_height="wrap_content"
+                android:paddingRight="10sp"
+                android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
